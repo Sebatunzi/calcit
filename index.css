@@ -10,14 +10,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9;
+    background-color: black;
+    background: url('Cwgf.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial, sans-serif;
 }
 
 .calculator {
     background-color: #fff;
+    background: linear-gradient(-45deg, rgb(157, 128, 203) 47%, rgb(248, 187, 208));
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 11px 6px 55px 0px rgba(242,225,242,0.6);
     padding: 20px;
     width: 300px;
 }
@@ -54,12 +59,16 @@ body {
 }
 
 .operator {
-    background-color: #f5a623;
+    background-color: #f39d12;
+    backdrop-filter: 10px;
+    border: 0px;
     color: white;
 }
 
 .operator:hover {
-    background-color: #f39c12;
+    background-color: #caf312;
+    backdrop-filter: 10px;
+    color: #f39d12;
 }
 
 .btn:active {
